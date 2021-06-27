@@ -17,10 +17,10 @@ const main = async () => {
     const data = await fetch(
       "https://rickandmortyapi.com/api/character?page=1"
     );
-    function locations() {
-      const locations = docuents.getElementById("locations");
-      locations.innerHTML = "xxx";
-    }
+    // // function locations() {
+    // //   const locations = docuents.getElementById("locations");
+    // //   locations.innerHTML = "xxx";
+    // }
     const json = await data.json();
     const $lista = document.getElementById("lista");
     $strona.innerHTML = 1;
